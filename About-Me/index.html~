@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../mystyle.css">
+    <style>
+      h1 {
+	  font-size: 50px;
+	  text-align: center;
+      }
+      p {
+	  font-size: 20px;
+	  text-align: center;
+      }
+      </style>
+    <meta charset="utf-8">
+    <title>About Me</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="../index.html">My Digital Portfolio</a>
+      <a class="active">About Me</a>
+      <a href="../CS-I/index.html">Advanced Computer Science I</a>
+      </div>
+    <h1>About Me</h1>
+    <p>My name is Darrion Nguyen and I'm curently a sophomore student in Computer Science I.
+      <br><br>
+      I believe having a digital portfolio is important because it contains all of my current and past projects. I can use this portfolio to show other people such as future employers projects I have done and to display my skills to them.
+    </p>
+    </body>

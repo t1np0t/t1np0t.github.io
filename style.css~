@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+p {
+    font-size:20px;
+    color:black; 
+}
+h2 {
+    font-size:35px;
+    color: white;
+    background-color: blue;
+}
+h3 {
+    font-size:25px;
+    color: navy;
+}

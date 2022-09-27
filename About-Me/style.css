@@ -1,0 +1,28 @@
+\body {
+    background-color: aliceblue;
+}
+button {
+    display: inline-block;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: goldenrod;
+    transition: all 0.4;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.5;
+}
+button:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px:
+}
+<!-- <link rel="stylesheet" href="mystyle.css"> -->

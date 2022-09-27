@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke;
+}
+
+.topnav {
+    background-color: goldenrod;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    font-family: Georgia, serif;
+    padding: 15px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.35s;
+}
+
+.topnav a.active {
+    background-color: steelblue;
+}
+
+.topnav a:hover{
+    color: whitesmoke;
+    background-color: darkred;
+}
