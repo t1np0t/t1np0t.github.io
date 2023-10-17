@@ -1,3 +1,5 @@
+/* General Purpose */
+
 body {
     background-color: lightblue;
 }
@@ -26,6 +28,8 @@ body {
     color: whitesmoke;
     background-color: darkred;
 }
+
+/* CS-I Customizations */
 
 .button {
     color: white;
@@ -63,3 +67,5 @@ body {
     opacity: 1;
     right: 0;
 }
+
+/* About Me Customization */
