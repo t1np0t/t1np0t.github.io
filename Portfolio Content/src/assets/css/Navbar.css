@@ -1,0 +1,14 @@
+:root {
+    --button-glow-color: #6499e9;
+}
+
+.navbarLink {
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    font-size: 1.25rem;
+}
+
+.navbarLink:hover {
+    color: #6b9acf;
+    font-size: 1.3rem;
+}
