@@ -9,8 +9,8 @@ export default function Projects() {
 
   return (
     <>
-
-    < DefaultNavbar />
+      <title>Projects</title>
+      < DefaultNavbar />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -1,6 +1,6 @@
 export default {
     HOME: '/',
     PROJECTS: '/projects',
-    CSI: '/cs-i',
+    CSCLASS: '/cs-classes',
     CSII: '/cs-ii',
 }

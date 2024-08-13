@@ -9,28 +9,33 @@ export default function CSII() {
 
   return (
     <>
-
+      <title>CS-II</title>
       < DefaultNavbar />
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div class='flex border px-4 border-5 border-secondary rounded text-white justify-content-center align-self-center' style={{ backgroundColor: '#41424c', width: '50vw', marginTop: '4rem'}}>
+        <div style={{ height: '1.25rem' }} />
+
+        <div class='container-fluid'>
+          <div class='h1'>Advanced Computer Science II</div>
+          <hr class='border border-2 rounded' />
+
+          <div class='align-items-center p-2'><h2>Projects</h2></div>
+
+          <div class='btn-group-vertical align-items-center'>
+            <a href='/' class='journalButton'>Placeholder</a>
+          </div>
+
+
+          <div class='align-items-center p-2'><h2>Essays</h2></div>
+
+          <div class='btn-group-vertical align-items-center'>
+            <a href='../Projects/ConspiracyTheory.html' class='journalButton'>Conspiracy Theories</a>
+          </div>
+
+          <hr class='border border-2 rounded' />
+        </div>
+
+        <div style={{ height: '1.25rem' }} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Content placeholder
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

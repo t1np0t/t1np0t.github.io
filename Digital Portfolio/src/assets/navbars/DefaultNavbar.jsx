@@ -16,8 +16,7 @@ export default function DefaultNavbar() {
                     <div class="px-4 flex-row justify-content-end align-items-center">
                         <a class="navbarLink text-decoration-none ms-4 me-2" href="/">Home</a>
                         <a class="navbarLink text-decoration-none ms-4 me-2" href="/projects">Projects</a>
-                        <a class="navbarLink text-decoration-none ms-4 me-2" href="/cs-i">CS-I</a>
-                        <a class="navbarLink text-decoration-none ms-4 me-2" href="/cs-ii">CS-II</a>
+                        <a class="navbarLink text-decoration-none ms-4 me-2" href="/cs-classes">CS-I</a>
                     </div>
                 </nav>
             </div>

@@ -5,7 +5,7 @@ import './assets/css/index.css'
 
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
-import CSI from './pages/CSI.jsx'
+import CSI from './pages/CSClass.jsx'
 import CSII from './pages/CSII.jsx'
 
 // Import our custom CSS
@@ -20,7 +20,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}/>
-        <Route path='/cs-i' element={<CSI/>}/>
+        <Route path='/cs-classes' element={<CSI/>}/>
         <Route path='/cs-ii' element={<CSII/>}/>
       </Routes>
     </BrowserRouter>

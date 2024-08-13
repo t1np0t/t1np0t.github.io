@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <>
-
+    <title>Digital Portfolio</title>
     < DefaultNavbar />
       <div>
         <a href="https://vitejs.dev" target="_blank">
