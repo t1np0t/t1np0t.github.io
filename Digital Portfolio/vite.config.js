@@ -11,4 +11,5 @@ export default defineConfig({
     outDir: "../static"
   },
   assetsInclude: ['**/*.html'],
+  base: "darrnguyen.github.io"
 })
