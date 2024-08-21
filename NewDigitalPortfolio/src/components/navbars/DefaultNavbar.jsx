@@ -1,4 +1,5 @@
 import '../css/Navbar.css'
+import { Link } from 'react-router-dom'
 
 import { cn } from '@/lib/utils'
 import {
@@ -9,7 +10,7 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
     navigationMenuTriggerStyle,
-  } from "@/assets/ui/navigation-menu"
+  } from "@/components/ui/navigation-menu"
 
 export default function DefaultNavbar() {
     return (
@@ -25,15 +26,15 @@ export default function DefaultNavbar() {
                         <NavigationMenuList>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/'>Home</a>
+                                <Link class='navbarLink ms-4 me-2' to='/'>Home</Link>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/projects'>Projects</a>
+                                <Link class='navbarLink ms-4 me-2' to='/projects'>Projects</Link>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/cs-classes'>CS Classes</a>
+                                <Link class='navbarLink ms-4 me-2' to='/cs-classes'>CS Classes</Link>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>

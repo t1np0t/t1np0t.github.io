@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
-import reactLogo from '../assets/images/react.svg'
-import viteLogo from '/vite.svg'
-import '../assets/css/App.css'
-import { DefaultNavbar } from '../assets/navbars'
+import '../components/css/App.css'
+import { DefaultNavbar } from '../components/navbars'
+import { Link } from 'react-router-dom'
 
 export default function CSCLASS() {
 /*
@@ -41,6 +40,8 @@ export default function CSCLASS() {
             <a href='../Journals/J1151.html' class='journalButton'>J1151: Conditional and Flow Chart</a>
             <a href='../Journals/J1152.html' class='journalButton'>J1152: While Loops</a>
             <a href='../Journals/J1153.html' class='journalButton'>J1153: Repeat While Loops</a>
+            <Link to='/cs-classes/sample' class='journalButton'>Test</Link>
+            <Link to='/cs-classes/J1002' class='journalButton'>J1002: Shell</Link>
           </div>
 
           <div className='align-items-center p-5'><h2>Essays</h2></div>
