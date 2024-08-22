@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import '../components/css/App.css'
+import '../components/css/Journal.css'
 import { DefaultNavbar } from '../components/navbars'
 import { Link } from 'react-router-dom'
 
@@ -19,7 +19,7 @@ export default function CSCLASS() {
     <>
       <title>CS Classes</title>
 
-      <div className='fixed container px-4 rounded-lg text-white sticky justify-center items-center pt-5 pb-5 z-0' style={{backgroundColor: '#41424c', width: '50vw', marginTop: '3.25rem'}}>
+      <div className='fixed container px-4 rounded-lg text-white sticky justify-center items-center pt-5 pb-5 z-0' style={{backgroundColor: '#252525', width: '50vw', marginTop: '3.25rem'}}>
 
       < DefaultNavbar/>
 
@@ -40,8 +40,10 @@ export default function CSCLASS() {
             <a href='../Journals/J1151.html' class='journalButton'>J1151: Conditional and Flow Chart</a>
             <a href='../Journals/J1152.html' class='journalButton'>J1152: While Loops</a>
             <a href='../Journals/J1153.html' class='journalButton'>J1153: Repeat While Loops</a>
-            <Link to='/cs-classes/sample' class='journalButton'>Test</Link>
-            <Link to='/cs-classes/J1002' class='journalButton'>J1002: Shell</Link>
+
+            <a href='/cs-classes/sample' class='journalButton'>Test</a>
+            <a href='/cs-classes/J1002' class='journalButton'>J1002: Shell</a>
+            <a href='/cs-classes/J1006' class='journalButton'>J1006 Source Control</a>
           </div>
 
           <div className='align-items-center p-5'><h2>Essays</h2></div>

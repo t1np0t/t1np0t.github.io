@@ -26,15 +26,15 @@ export default function DefaultNavbar() {
                         <NavigationMenuList>
 
                             <NavigationMenuItem>
-                                <Link class='navbarLink ms-4 me-2' to='/'>Home</Link>
+                                <a class='navbarLink ms-4 me-2' href='/'>Home</a>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Link class='navbarLink ms-4 me-2' to='/projects'>Projects</Link>
+                                <a class='navbarLink ms-4 me-2' href='/projects'>Projects</a>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <Link class='navbarLink ms-4 me-2' to='/cs-classes'>CS Classes</Link>
+                                <a class='navbarLink ms-4 me-2' href='/cs-classes'>CS Classes</a>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>

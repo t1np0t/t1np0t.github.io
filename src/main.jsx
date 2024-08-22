@@ -9,6 +9,7 @@ import CSClass from './CSContent/index.jsx'
 
 import Sample from './CSContent/Sample.jsx'
 import J1002 from './CSContent/J1002.jsx'
+import J1006 from './CSContent/J1006.jsx'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
 
         <Route path='/cs-classes/sample' element={<Sample/>}/>
         <Route path='/cs-classes/J1002' element={<J1002/>}/>
+        <Route path='/cs-classes/J1006' element={<J1006/>}/>
       </Routes>
     </BrowserRouter>
   );

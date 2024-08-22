@@ -1,0 +1,40 @@
+.headerInfo {
+    font-size: 2rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2.75rem;
+    text-align: center;
+}
+
+.journalContent {
+    font-size: 1.5rem;
+}
+
+.journalResponses {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 1.25rem;
+    text-indent: 4px;
+}
+
+.journalButton {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: larger;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 2.5px 10px;
+    margin: 10px 0px;
+    width: 100%;
+    white-space: normal;
+    transition: 0.5s;
+  }
+  
+  .journalButton:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+    color: #000000;
+  }
