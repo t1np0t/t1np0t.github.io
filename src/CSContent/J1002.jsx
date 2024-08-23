@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/navbars'
 
-export default function Sample() {
+export default function J1002() {
 
   return (
     <>

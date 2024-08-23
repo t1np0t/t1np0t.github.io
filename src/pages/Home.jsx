@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from '../components/images/react.svg'
+import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/navbars'

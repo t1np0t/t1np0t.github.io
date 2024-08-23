@@ -29,21 +29,19 @@ export default function CSCLASS() {
 
           <div className='flex flex-col items-center mb-5'><h2>Journals</h2></div>
 
-          <div className='flex flex-col items-center justify-center mx-auto' style={{width: '50%'}}>
-            <a href='../Journals/J1002.html' class='journalButton'>J1002: Shell</a>
-            <a href='../Journals/J1006.html' class='journalButton'>J1006: Source Control</a>
-            <a href='../Journals/J1012.html' class='journalButton'>J1012: Alternative Base Addition</a>
-            <a href='../Journals/J1013.html' class='journalButton'>J1013: Boolean Algebra</a>
-            <a href='../Journals/J1016.html' class='journalButton'>J1016: Logic Comparsion</a>
+          <div className='flex flex-col items-center justify-center mx-auto' style={{ width: '50%' }}>
+            <a href='/cs-classes/J1002' class='journalButton'>J1002: Shell</a>
+            <a href='/cs-classes/J1006' class='journalButton'>J1006 Source Control</a>
+            <a href='/cs-classes/J1012' class='journalButton'>J1012 Alternative Base Addition</a>
+            <a href='/cs-classes/J1013' class='journalButton'>J1013 Boolean Algebra</a>
+            <a href='../cs-classes/J1016' class='journalButton'>J1016: Logic Comparsion</a>
+            <a href='../cs-classes/J1017' class='journalButton'>J1017: Binary Address</a>
+            <a href='' class='journalButton'>- - - - -</a>
             <a href='../Journals/J1017.html' class='journalButton'>J1017: Binary Address</a>
             <a href='../Journals/J1089.html' class='journalButton'>J1089: Hello World</a>
             <a href='../Journals/J1151.html' class='journalButton'>J1151: Conditional and Flow Chart</a>
             <a href='../Journals/J1152.html' class='journalButton'>J1152: While Loops</a>
             <a href='../Journals/J1153.html' class='journalButton'>J1153: Repeat While Loops</a>
-
-            <a href='/cs-classes/sample' class='journalButton'>Test</a>
-            <a href='/cs-classes/J1002' class='journalButton'>J1002: Shell</a>
-            <a href='/cs-classes/J1006' class='journalButton'>J1006 Source Control</a>
           </div>
 
           <div className='align-items-center p-5'><h2>Essays</h2></div>
