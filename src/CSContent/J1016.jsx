@@ -30,19 +30,19 @@ export default function J1016() {
             <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/NotGate.png'/></a>
 
             <p>2. Create a AND Gate:</p>
-            <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/AndGate.png'/></a>
+            <a className='flex justify-center m-16' href='https://tinyurl.com/2lvb2smr' target='_blank'><img src='/AndGate.png'/></a>
 
             <p>3. Create a OR Gate:</p>
-            <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/OrGate.png'/></a>
+            <a className='flex justify-center m-16' href='https://tinyurl.com/2of6h3ev' target='_blank'><img src='/OrGate.png'/></a>
 
             <p>4. Create a XOR Gate:</p>
-            <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/XorGate.png'/></a>
+            <a className='flex justify-center m-16' href='https://tinyurl.com/2hq3mv65' target='_blank'><img src='/XorGate.png'/></a>
 
             <p>5. Create a NOR Gate:</p>
-            <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/NorGate.png'/></a>
+            <a className='flex justify-center m-16' href='https://tinyurl.com/2o2ewmrl' target='_blank'><img src='/NorGate.png'/></a>
 
             <p>6. Excursion Exercise: Create a 7-digit display that displays hexidecmials 1 to F.</p>
-            <a className='flex justify-center m-16' href='https://tinyurl.com/2kd38wt5' target='_blank'><img src='/Excursion.png'/></a>
+            <a className='flex justify-center m-16' href='https://tinyurl.com/2ls5xz8u' target='_blank'><img src='/Excursion.png'/></a>
 
             <hr className='m-8 border-2 rounded-full'/>
 
