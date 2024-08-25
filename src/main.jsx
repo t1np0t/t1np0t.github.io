@@ -5,7 +5,7 @@ import './index.css'
 
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
-import CSClass from './CSContent/index.jsx'
+import CSClass from './pages/CSClasses.jsx'
 
 import J1002 from './CSContent/J1002.jsx'
 import J1006 from './CSContent/J1006.jsx'

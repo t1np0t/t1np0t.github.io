@@ -9,9 +9,13 @@ export default function Home() {
 
   return (
     <>
-    <title>Digital Portfolio</title>
-    < DefaultNavbar />
-      <div>
+      <title>Digital Portfolio</title>
+      < DefaultNavbar />
+      <div className='flex flex-col justify-center items-center text-white' style={{ marginTop: '10rem'}}>
+        <div className='flex flex-col p-4 text-4xl justify-center items-center' style={{width: '100vw', height: '50vh'}}>
+          Welcome to my Digital Portfolio!
+          <img src='/profile.jpg' className='rounded-full aspect-square mt-8' style={{width: '17.5vw'}}></img>
+        </div>
       </div>
     </>
   )

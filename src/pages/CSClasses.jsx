@@ -4,16 +4,6 @@ import { DefaultNavbar } from '../components/navbars'
 import { Link } from 'react-router-dom'
 
 export default function CSCLASS() {
-/*
-  useEffect(() => {
-
-    document.body.style.overflow = 'hidden';
-
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, []);
-  */
 
   return (
     <>
@@ -22,8 +12,9 @@ export default function CSCLASS() {
       <div className='fixed container px-4 rounded-lg text-white border border-2 sticky justify-center items-center pt-5 pb-5 z-0' style={{backgroundColor: '#252525', width: '50vw', marginTop: '3.25rem'}}>
 
       < DefaultNavbar/>
+      
+        <div class=''>
 
-        <div>
           <h1>Advanced Computer Science Content</h1>
           <hr className='flex my-5 border-2 rounded-lg' />
 
