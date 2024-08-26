@@ -1,3 +1,4 @@
+import React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -44,7 +45,7 @@ export default function App() {
 }
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <React.StrictMode>
     <App />
-  </StrictMode>,
+  </React.StrictMode>,
 )
