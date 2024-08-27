@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from '/react.svg'
-import viteLogo from '/vite.svg'
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/navbars'
 
@@ -11,6 +9,12 @@ export default function Projects() {
     <>
       <title>Projects</title>
       < DefaultNavbar />
+
+      <div className='flex flex-col justify-center items-center text-white' style={{ marginTop: '7.5rem'}}>
+        <h1>Projects</h1>
+        <div className='card'>Project Title Goes Here</div>
+        <div className='card'>Project Title Goes Here</div>
+      </div>
     </>
   )
 }
