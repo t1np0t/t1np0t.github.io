@@ -15,7 +15,7 @@ export default function CSCLASS() {
       
         <div class=''>
 
-          <h1>Advanced Computer Science Content</h1>
+          <h2>Advanced Computer Science Content</h2>
           <hr className='flex my-5 border-2 rounded-lg' />
 
           <div className='flex flex-col items-center mb-5'><h2>Journals</h2></div>
