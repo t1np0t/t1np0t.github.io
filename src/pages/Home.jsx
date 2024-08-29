@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import reactLogo from '/react.svg'
-import viteLogo from '/vite.svg'
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/navbars'
 
 export default function Home() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -43,17 +39,17 @@ export default function Home() {
             <div className='flex flex-row justify-center items-center space-x-24 rounded-lg'>
 
             <a href="https://github.com/darrnguyen" target="_blank" className="infoCard -space-y-2" style={{backgroundColor: '#333333'}}>
-                <i class="bi bi-github"></i>
+                <i className="bi bi-github"></i>
                 <div>Github</div>
               </a>
 
               <a href="/Resume.png" target="_blank" className="infoCard bg-sky-800 -space-y-2">
-                <i class="bi bi-person-lines-fill"></i>
+                <i className="bi bi-person-lines-fill"></i>
                 <div>Resume</div>
               </a>
 
               <a href="https://www.linkedin.com/in/darrion-nguyen-a58b5727a/" target="_blank" className="infoCard -space-y-2" style={{backgroundColor: '#0077B5'}}>
-                <i class="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin"></i>
                 <div>Linkedin</div>
               </a>
 
