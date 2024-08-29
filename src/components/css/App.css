@@ -42,8 +42,15 @@
   margin: 2rem;
 }
 
-.read-the-docs {
+.docs {
   color: #888;
+  font-weight: lighter;
+  transition: all .35s ease-in-out;
+}
+
+.docs:hover {
+  font-size: 1.25rem;
+  color: #6b9acf;
 }
 
 .infoCard {
@@ -61,6 +68,7 @@ h1 {
   font-size: 4rem;
   letter-spacing: 0.2rem;
   margin-bottom: 5rem;
+  font-weight: 500;
 }
 
 h2 {
