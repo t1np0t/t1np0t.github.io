@@ -14,14 +14,12 @@ export default function Home() {
       {/* Introduction */}
 
       < DefaultNavbar />
-      <div className='flex flex-col justify-center items-center text-white' style={{ marginTop: '15rem', marginBottom: '5rem'}}>
+      <div className='flex flex-col justify-center items-center text-white' style={{ marginTop: '2.5rem', marginBottom: '5rem'}}>
         <div className='flex flex-col justify-center items-center' style={{width: '90vw', height: '50vh'}}>
           <div className='flex flex-col space-y-8 items-center'>
             <h2>Welcome to my Digital Portfolio!</h2>
             <div className='text-wrap' style={{ width: '50vh' }}><p>I am a student at Allen High School, who plans to major in Computer Science.</p></div>
           </div>
-
-          <img src='/profile.jpg' className='rounded-full aspect-square m-24' style={{ width: '17.5vw' }}></img>
         </div>
       </div>
 
@@ -30,6 +28,7 @@ export default function Home() {
       <div className='flex flex-col justify-center items-center text-white mb-10'>
         <div className='flex flex-col justify-center items-center' style={{width: '100vw', height: '20vh'}}>
           <h1>Experience</h1>
+
         </div>
       </div>
 
