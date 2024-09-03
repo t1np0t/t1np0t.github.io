@@ -34,7 +34,7 @@ export default function DefaultNavbar() {
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/cs-classes'>CS Classes</a>
+                                <a class='navbarLink ms-4 me-2 text-center' href='/cs-classes'>CS Classes</a>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>

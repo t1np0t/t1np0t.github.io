@@ -1,6 +1,6 @@
 import { ChevronRight } from 'lucide-react'
 import '../components/css/App.css'
-import { DefaultNavbar } from '../components/navbars'
+import { DefaultNavbar } from '../components/misc'
 
 import {
   Card,

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import '../components/css/App.css'
-import { DefaultNavbar } from '../components/navbars'
+import { DefaultNavbar } from '../components/misc'
 
 export default function J1013() {
 

@@ -67,14 +67,15 @@
 }
 
 h1 {
-  font-size: 4rem;
-  letter-spacing: 0.2rem;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
   margin-bottom: 5rem;
   font-weight: 500;
 }
 
 h2 {
   font-size: 2.5rem;
+  line-height: 1.15;
 }
 
 h3 {

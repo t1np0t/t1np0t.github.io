@@ -1,5 +1,5 @@
 import '../components/css/Journal.css'
-import { DefaultNavbar } from '../components/navbars'
+import { DefaultNavbar } from '../components/misc'
 
 export default function CSCLASS() {
 
@@ -7,11 +7,11 @@ export default function CSCLASS() {
     <>
       <title>CS Classes</title>
 
-      <div className='fixed container px-4 rounded-lg text-white border border-2 sticky justify-center items-center pt-5 pb-5 z-0' style={{backgroundColor: '#252525', width: '50vw', marginTop: '3.25rem'}}>
-
       < DefaultNavbar/>
+
+      <div className='fixed container px-4 rounded-lg text-white border border-2 sticky justify-center items-center pt-5 pb-5 z-0 leading-tight bg-[#252525] mt-[3.5rem]'>
       
-        <div className=''>
+        <div>
 
           <h2>Advanced Computer Science Content</h2>
           <hr className='flex my-5 border-2 rounded-lg' />
