@@ -5,7 +5,7 @@ import { DefaultNavbar } from '../components/misc'
 import {
   Card,
   CardContent,
-  CardDescription,
+  //CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -18,7 +18,7 @@ export default function Projects() {
       <title>Projects</title>
       < DefaultNavbar />
 
-      <div className='flex flex-col justify-center items-center text-white' style={{ marginTop: '5rem'}}>
+      <div className='flex flex-col justify-center items-center text-white mt-[5rem]'>
         <h1>Projects</h1>
         {/*<div className='card'>Project Title Goes Here</div>*/}
 

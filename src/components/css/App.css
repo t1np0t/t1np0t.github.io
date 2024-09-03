@@ -55,22 +55,12 @@
   color: #6b9acf;
 }
 
-.infoCard {
-  width: 15rem;
-  height: 8rem;
-  font-size: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  align-items: center;
-  justify-content: center;
-}
-
 h1 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
   margin-bottom: 5rem;
   font-weight: 500;
+  line-height: 1.15;
 }
 
 h2 {
@@ -86,4 +76,41 @@ h3 {
 p {
   font-size: 1.1rem;
   font-weight: lighter;
+}
+
+.infoCard {
+  width: 15rem;
+  height: 8rem;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoText {
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .infoCard {
+    width: 7.5rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .infoText {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .infoCard {
+    width: 6rem;
+    height: 3.5rem;
+    font-size: 1.25rem;
+  }
+  .infoText {
+    font-size: 1rem;
+  }
 }

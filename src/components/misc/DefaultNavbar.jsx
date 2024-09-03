@@ -1,7 +1,4 @@
 import '../css/Navbar.css'
-import { Link } from 'react-router-dom'
-
-import { cn } from '@/lib/utils'
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -26,15 +23,15 @@ export default function DefaultNavbar() {
                         <NavigationMenuList>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/'>Home</a>
+                                <a className='navbarLink ms-4 me-2' href='/'>Home</a>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2' href='/projects'>Projects</a>
+                                <a className='navbarLink ms-4 me-2' href='/projects'>Projects</a>
                             </NavigationMenuItem>
 
                             <NavigationMenuItem>
-                                <a class='navbarLink ms-4 me-2 text-center' href='/cs-classes'>CS Classes</a>
+                                <a className='navbarLink ms-4 me-2 text-center' href='/cs-classes'>CS Classes</a>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>

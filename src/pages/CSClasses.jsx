@@ -14,11 +14,11 @@ export default function CSCLASS() {
         <div>
 
           <h2>Advanced Computer Science Content</h2>
-          <hr className='flex my-5 border-2 rounded-lg' />
+          <hr className='flex my-5 border-2 rounded-lg'/>
 
           <div className='flex flex-col items-center mb-5'><h2>Journals</h2></div>
 
-          <div className='flex flex-col items-center justify-center mx-auto' style={{ width: '50%' }}>
+          <div className='flex flex-col items-center justify-center mx-auto w-[50%]'>
             <a href='/cs-classes/J1002' className='journalButton'>J1002: Shell</a>
             <a href='/cs-classes/J1006' className='journalButton'>J1006 Source Control</a>
             <a href='/cs-classes/J1012' className='journalButton'>J1012 Alternative Base Addition</a>
@@ -33,7 +33,7 @@ export default function CSCLASS() {
 
           <div className='align-items-center p-5'><h2>Essays</h2></div>
 
-          <div className='flex flex-col items-center mx-auto' style={{ width: '50%' }}>
+          <div className='flex flex-col items-center mx-auto w-[50%]'>
             <a href='../cs-classes/ConspiracyTheory' className='journalButton'>Conspiracy Theories</a>
           </div>
 
