@@ -30,6 +30,11 @@ module.exports = {
       },
     },
     extend: {
+      listStyleType: {
+        circle: 'circle',
+        square: 'square',
+        none: 'none',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -72,7 +72,7 @@ export default function Home() {
 
       {/* Experience */}
 
-      <div className="flex flex-col justify-center items-center text-white mb-64">
+      <div className="flex flex-col justify-center items-center text-white mb-32">
         <div className="flex flex-col justify-center items-center">
           <h2 className="mb-[5rem]">Experience</h2>
           <div className="flex flex-col space-y-8 lg:space-x-24 lg:flex-row lg:space-y-0">

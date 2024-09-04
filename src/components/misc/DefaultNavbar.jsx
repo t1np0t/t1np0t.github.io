@@ -22,16 +22,16 @@ export default function DefaultNavbar() {
                     <NavigationMenu>
                         <NavigationMenuList>
 
-                            <NavigationMenuItem>
-                                <a className='navbarLink ms-4 me-2' href='/'>Home</a>
+                            <NavigationMenuItem className='navbarLink'>
+                                <a href='/'>Home</a>
                             </NavigationMenuItem>
 
-                            <NavigationMenuItem>
-                                <a className='navbarLink ms-4 me-2' href='/projects'>Projects</a>
+                            <NavigationMenuItem className='navbarLink'>
+                                <a href='/projects'>Projects</a>
                             </NavigationMenuItem>
 
-                            <NavigationMenuItem>
-                                <a className='navbarLink ms-4 me-2 text-center' href='/cs-classes'>CS Classes</a>
+                            <NavigationMenuItem className='navbarLink'>
+                                <a className='flex text-center' href='/cs-classes'>CS Classes</a>
                             </NavigationMenuItem>
 
                         </NavigationMenuList>
