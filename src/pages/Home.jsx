@@ -59,7 +59,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center text-white mt-[2.5rem] mb-[12.5rem]">
         <div className="flex flex-col justify-center items-center mt-32">
           <div className="flex flex-col space-y-8 items-center">
-            <h1>Welcome to my Digital Portfolio!</h1>
+            <h1 className='mb-[5rem]'>Welcome to my Digital Portfolio!</h1>
             <div className="text-wrap w-[20rem] lg:w-[35rem]">
               <h3>
                 I am a student at Allen High School, who plans to major in

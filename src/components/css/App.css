@@ -27,7 +27,6 @@
 h1 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 5rem;
   font-weight: 500;
   line-height: 1.15;
 }
@@ -43,7 +42,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: lighter;
 }
 
@@ -62,17 +61,6 @@ p {
   font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 650px) {
-  .infoCard {
-    width: 7.5rem;
-    height: 4rem;
-    font-size: 1.5rem;
-  }
-  .infoText {
-    font-size: 1rem;
-  }
-}
-
 .projectLink {
   color: #ffffff;
   transition: all .3s ease-in-out;
@@ -80,6 +68,7 @@ p {
   border: 2px solid white;
   border-radius: 6px;
   padding: 2.5px 10px;
+  width: 15rem;
 }
 
 .projectLink:hover {
@@ -87,13 +76,19 @@ p {
   transform: scale(1.2);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 640px) {
   .infoCard {
     width: 6rem;
     height: 3.5rem;
     font-size: 1.25rem;
   }
   .infoText {
+    font-size: 1rem;
+  }
+  .projectLink {
+    width: 7.5rem;
+  }
+  p {
     font-size: 1rem;
   }
 }

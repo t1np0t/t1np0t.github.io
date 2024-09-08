@@ -53,15 +53,14 @@ export default function Projects() {
           <CardContent>
             <img src='/RTSGame.png' className='flex rounded-lg'/>
             <p className='mt-4 indent-10 text-start'>
-              One of my favorite game genres are real time strategy games, and I decided to challenge myself and create one over the summer
-              between my junior and senior year. Terrarium RTS is a very simplified version of average real time strategy games. 
-              It currently features a simple spawning system with a small assortment of units to choose from and a basic money system.
+              Terrarium RTS is a very simplified version of average real time strategy games I created in the summer before my senior year. 
+              It takes place on a fictional planet, and currently features a simple spawning system with a small assortment of units to choose from and a basic money system.
             </p>
           </CardContent>
 
           <CardFooter> 
+            <a className='projectLink mx-4' href='/projects/terrarium'>View Article</a>
             <a className='projectLink mx-4' target='_blank' href='https://github.com/darrnguyen/TerrariumRTS'>View Github Repository</a>
-            {/*<a className='projectLink mx-4' target='_blank' href='https://github.com/darrnguyen/TerrariumRTS'>View Github Repository</a>*/}
           </CardFooter>
         </Card>
       </div>
