@@ -1,6 +1,5 @@
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/misc'
-import { Chart } from 'react-chartjs-2';
 
 export default function Terrarium() {
   return (
