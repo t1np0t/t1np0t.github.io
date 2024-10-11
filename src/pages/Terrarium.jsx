@@ -1,5 +1,6 @@
 import '../components/css/App.css'
 import { DefaultNavbar } from '../components/misc'
+import { TerrariumGraph } from '@/components/graphs';
 
 export default function Terrarium() {
   return (
@@ -65,6 +66,7 @@ export default function Terrarium() {
             <p className="text-center">Server Side</p>
           </div>
         </div>
+        <TerrariumGraph/>
       </div>
     </>
   );
