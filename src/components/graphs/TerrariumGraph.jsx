@@ -1,65 +1,78 @@
-import { Bar, BarChart, CartesianGrid, LabelList, XAxis, YAxis } from "recharts"
-import { ChartContainer } from "@/components/ui/chart"
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  XAxis,
+  YAxis,
+} from "recharts";
+import { ChartContainer } from "@/components/ui/chart";
 
-const chartData = [
-  { test: "A", before: 3, after: 4 },
-  { test: "B", before: 6, after: 2 },
-  { test: "C", before: 4, after: 5 },
-]
+const serverActivity = [
+  { test: "10 NPCs", unoptimized: [0.049, 0.488], optimized: [0, 0.04] },
+  { test: "25 NPCs", unoptimized: [0.439, 1.127], optimized: [0, 0.098] },
+  { test: "50 NPCs", unoptimized: [0.83, 1.758], optimized: [0.049, 0.146] },
+];
+
+const fps = [
+  { test: "10 NPCs", unoptimized: 60, optimized: 59 },
+  { test: "25 NPCs", unoptimized: 52, optimized: 60 },
+  { test: "50 NPCs", unoptimized: 50, optimized: 60 },
+];
 
 const chartConfig = {
-  desktop: {
+  test: {
     label: "Test",
     color: "hsl(var(--chart-1))",
   },
-  label: {
+  before: {
     color: "hsl(var(--background))",
   },
 };
 
-export default function HomePageGraph() {
+export default function TerrariumGraph() {
   return (
-    <ChartContainer config={chartConfig} className="w-[70vw] lg:w-[35vw]">
-      <BarChart data={chartData} layout="vertical" margin={{ right: 25 }}>
-        <CartesianGrid strokeDasharray={'5 5'} />
-        <YAxis
-          dataKey="test"
-          type="category"
-          tickLine={false}
-          tickMargin={10}
-          axisLine={false}
-          tickFormatter={(value) => value.slice(0, 3)}
-          hide
-        />
-        <XAxis dataKey="before" type="number" hide />
-        <Bar
-          dataKey="before"
-          layout="vertical"
-          fill="var(--color-desktop)"
-          radius={4}
+    <div className="flex lg:flex-row flex-col">
+      <div className="flex flex-col justify-center items-center space-y-4 h-[75vw] lg:h-[35vw]">
+        <h3>Server Activity</h3>
+        <ChartContainer
+          config={chartConfig}
+          className="w-[70vw] h-[90%] lg:w-[35vw]"
         >
-          <LabelList
-            dataKey="test"
-            position="insideLeft"
-            offset={8}
-            className="fill-[--color-label]"
-            fontSize={20}
-          />
-          <LabelList
-            dataKey="before"
-            position="right"
-            offset={8}
-            className="fill-background"
-            fontSize={20}
-          />
-        </Bar>
-        <Bar 
-          dataKey='after'
-          fill='var(--color-desktop)'
-          layout='vertical'
-          radius={4}
-        />
-      </BarChart>
-    </ChartContainer>
+          <BarChart
+            data={serverActivity}
+            margin={{ top: 10, bottom: 10, right: 5, left: 5 }}
+          >
+            <CartesianGrid strokeDasharray={"5 5"} />
+            <XAxis dataKey={"test"} />
+            <YAxis />
+            <Legend />
+
+            <Bar dataKey={"unoptimized"} fill="tomato" radius={4} />
+
+            <Bar dataKey={"optimized"} fill="dodgerblue" radius={4} />
+          </BarChart>
+        </ChartContainer>
+      </div>
+
+      <div className="flex flex-col justify-center items-center space-y-4 h-[75vw] lg:h-[35vw]">
+        <h3>FPS (Frames per Second)</h3>
+        <ChartContainer config={chartConfig} className="w-[70vw] h-[90%] lg:w-[35vw]">
+          <BarChart
+            data={fps}
+            margin={{ top: 10, bottom: 10, right: 5, left: 5 }}
+          >
+            <CartesianGrid strokeDasharray={"5 5"} />
+            <XAxis dataKey={"test"} />
+            <YAxis />
+            <Legend />
+
+            <Bar dataKey={"unoptimized"} fill="tomato" radius={4} />
+
+            <Bar dataKey={"optimized"} fill="dodgerblue" radius={4} />
+          </BarChart>
+        </ChartContainer>
+      </div>
+    </div>
   );
 }

@@ -35,11 +35,11 @@ export default function Terrarium() {
           </p>
           <div className="flex flex-row-4 justify-center items-center my-8 space-x-4">
             <div className="flex flex-col">
-              {/*<img src="/Example1.png" className="flex rounded-lg" />*/}
+              <img src="/Example1.png" className="flex rounded-lg" />
               <p className="text-center">Client (User) Side</p>
             </div>
             <div className="flex flex-col">
-              {/*<img src="/Example1.png" className="flex rounded-lg" />*/}
+              <img src="/Example1.png" className="flex rounded-lg" />
               <p className="text-center">Server Side</p>
             </div>
           </div>
@@ -58,17 +58,16 @@ export default function Terrarium() {
 
         <div className="flex flex-row-4 justify-center items-center my-8 space-x-4">
           <div className="flex flex-col">
-            {/*<img src="/Example2b.png" className="flex rounded-lg" />*/}
+            <img src="/Example2b.png" className="flex rounded-lg" />
             <p className="text-center">Client (User) Side</p>
           </div>
           <div className="flex flex-col">
-            {/*<img src="/Example2a.png" className="flex rounded-lg" />*/}
+            <img src="/Example2a.png" className="flex rounded-lg" />
             <p className="text-center">Server Side</p>
           </div>
         </div>
 
         <div className='flex flex-row justify-center items-center'>
-          <TerrariumGraph />
           <TerrariumGraph />
         </div>
 
