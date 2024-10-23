@@ -31,7 +31,10 @@ export default function Terrarium() {
             instance is rendered on the server side, the server is constantly
             calculating the physics in the background, which creates a tiny
             delay in the thread. All of these delays add up, significantly
-            affecting all scripts and slowing the entire game down.
+            affecting all scripts and slowing the entire game down. My first
+            attempt at optimizing unit movement was to have the physics engine
+            not put the units into consideration when calculating the game physics,
+            however this only marginally improved performance.
           </p>
           <div className="flex flex-row-4 justify-center items-center my-8 space-x-4">
             <div className="flex flex-col">
@@ -46,14 +49,17 @@ export default function Terrarium() {
         </div>
 
         <p className="indent-12">
-          A fix I made was that instead of having the entire unit be rendered on
+          My final optimization I made was that instead of having the entire unit be rendered on
           the server, only the hitbox would be rendered, whilst the rest of the
           unit is rendered locally on the device. This is done by first using a
-          remote event, which allows server-sided scripts to communicate with
-          client-sided ones and vice versa. While this takes a huge amount of
-          work off of the server, the work is now put onto the user's device,
-          which can cause a large drop in frames per second (FPS) for older
-          devices.
+          remote event, a built-in feature within Roblox Studio
+          that allows one way communication between server-sided and
+          client-sided scripts. With the units now being primarily rendered
+          on the client-side, this takes a  large amount of work off of the server, which can
+          now focus more on other mechanics without severely lagging the game. However, the
+          main disadvantage of offloading this work to the user's device is that now the
+          performance is more dependent on the device, which can negatively affect the frames
+          per second (FPS) on older or lower end devices.
         </p>
 
         <div className="flex flex-row-4 justify-center items-center my-8 space-x-4">
@@ -70,7 +76,6 @@ export default function Terrarium() {
         <div className='flex flex-row justify-center items-center'>
           <TerrariumGraph />
         </div>
-
       </div>
     </>
   );

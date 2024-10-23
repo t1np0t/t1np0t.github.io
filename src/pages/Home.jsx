@@ -28,14 +28,8 @@ export default function Home() {
           value: "#121212",
         },
       },
-      fpsLimit: 120,
+      fpsLimit: 60,
       interactivity: {
-        events: {
-          onHover: {
-            enable: true,
-            mode: "repulse",
-          },
-        },
         modes: {
           push: {
             quantity: 4,
@@ -55,7 +49,7 @@ export default function Home() {
           distance: 150,
           enable: true,
           opacity: 1,
-          width: 2.5,
+          width: .5,
         },
         move: {
           direction: "none",
@@ -64,7 +58,7 @@ export default function Home() {
             default: "bounce",
           },
           random: false,
-          speed: 5,
+          speed: 3.5,
           straight: false,
         },
         number: {

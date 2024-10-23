@@ -56,7 +56,7 @@ export default function TerrariumGraph() {
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-4 h-[75vw] lg:h-[35vw]">
-        <h3>FPS (Frames per Second)</h3>
+        <h3>Maximum FPS (Frames per Second)</h3>
         <ChartContainer config={chartConfig} className="w-[70vw] h-[90%] lg:w-[35vw]">
           <BarChart
             data={fps}
