@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import CSClass from './pages/CSClasses.jsx'
 import Terrarium from './pages/Terrarium.jsx'
+import Reroute from './pages/Reroute.jsx'
 
 import J1002 from './CSContent/J1002.jsx'
 import J1006 from './CSContent/J1006.jsx'
@@ -25,7 +26,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/digital-portfolio' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/digital-portfolio' element={<Reroute/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/projects/terrarium' element={<Terrarium/>}/>
 
