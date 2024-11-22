@@ -56,6 +56,35 @@ export default function Projects() {
         <Card className="card w-[22.5rem] md:w-[45rem] lg:w-[60rem]">
           <CardHeader>
             <CardTitle className="text-2xl md:text-4xl tracking-wide">
+              Cyber Invitational
+            </CardTitle>
+          </CardHeader>
+
+          <CardContent className='flex flex-col justify-center items-center'>
+            <img src="/ico.ab8b6912.svg" className="flex rounded-lg w-96" />
+            <p className="mt-4 indent-10 text-start">
+              The Cyber Invitational is a student-created local cybersecurity competition open to
+              students within the DFW area. Its primary goal is to teach students basic topics of
+              cybersecurity through a fun competition. Some of these topics include cryptography, steganography, web exploitation, CLI commands, 
+              and binary exploitation. In this project, I hope to improve my front-end skills, along with beginning to learn how to do 
+              back-end development.
+            </p>
+          </CardContent>
+
+          <CardFooter>
+            <a
+              className="projectLink"
+              target="_blank"
+              href="https://github.com/Allen-ISD-Computer-Science/REPO_ModelScheduler_2024"
+            >
+              View Github Repository
+            </a>
+          </CardFooter>
+        </Card>
+
+        <Card className="card w-[22.5rem] md:w-[45rem] lg:w-[60rem]">
+          <CardHeader>
+            <CardTitle className="text-2xl md:text-4xl tracking-wide">
               Terrarium Real Time Strategy (RTS)
             </CardTitle>
           </CardHeader>
@@ -82,9 +111,6 @@ export default function Projects() {
           </CardContent>
 
           <CardFooter>
-            <a className="projectLink mx-4" href="/projects/terrarium">
-              View Article
-            </a>
             <a
               className="projectLink mx-4"
               target="_blank"
