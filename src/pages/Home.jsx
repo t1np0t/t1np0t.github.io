@@ -5,6 +5,7 @@ import { HomePageGraph } from '@/components/graphs'
 import { useEffect, useMemo, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react'
 import { loadSlim } from '@tsparticles/slim';
+import * as motion from 'framer-motion/client'
 
 export default function Home() {
   const [init, setInit] = useState(false)
@@ -103,7 +104,12 @@ export default function Home() {
       </head>
       {/* Introduction */}
       <DefaultNavbar />
-      <div className="flex flex-col justify-center items-center text-white mt-[2.5rem] mb-[12.5rem]">
+      <motion.div
+        className="flex flex-col justify-center items-center text-white mt-[2.5rem] mb-[12.5rem]"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.25 }}
+    >
         <div className="flex flex-col justify-center items-center mt-32">
           <div className="flex flex-col space-y-8 items-center">
             <h1 className="mb-[5rem]">Welcome to my Digital Portfolio!</h1>
@@ -115,9 +121,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* Experience */}
-      <div className="flex flex-col justify-center items-center text-white mb-32">
+      <motion.div
+        className="flex flex-col justify-center items-center text-white mb-32"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.25 }}
+        viewport={{once: true}}
+      >
         <div className="flex flex-col justify-center items-center">
           <h2 className="mb-[5rem]">Experience</h2>
           <div className="flex flex-col space-y-8 lg:space-x-24 lg:flex-row lg:space-y-0">
@@ -148,7 +160,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* Contact Info */}
       <div className="flex flex-col py-12 bg-[#333333] justify-center items-center w-full text-white absolute left-0">
         <div className="flex flex-row justify-center items-center space-x-4 lg:space-x-24 rounded-lg">
