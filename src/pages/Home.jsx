@@ -130,6 +130,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, delay: 1 }}
+        viewport={{ once: true }}
       >
         <div className="flex flex-col justify-center items-center mt-16">
           <button className="rounded-md border border-white px-4">
@@ -139,7 +140,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 document
-                  .getElementById("Projects")
+                  .getElementById("Academic Projects")
                   ?.scrollIntoView({ behavior: "smooth" });
               }}
             >
@@ -194,42 +195,124 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* Projects */}
-      <div className="flex flex-col justify-center items-center text-white mb-32 mt-[15rem] w-full">
-        <div id="Projects" className="flex flex-col justify-start items-start w-full max-w-4xl">
-          <h2>Projects</h2>
+      {/* Academic Projects */}
+      <div className="flex flex-col justify-center items-center text-white mt-[15rem] w-full">
+        <div
+          id="Academic Projects"
+          className="flex flex-col justify-start items-start w-full max-w-4xl"
+        >
+          <h2>Academic Projects</h2>
           <hr className="my-4 w-full border-1 border-white rounded-full" />
-          <div className="flex flex-col space-y-8 lg:space-x-24 lg:flex-row lg:space-y-0">
-            <div className="flex flex-col justify-center items-center space-x-8">
-              <Card className="card w-full">
+          <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
+            <div className="flex flex-col justify-center items-center">
+              <Card className="card w-full pt-2">
                 <CardHeader>
-                  <CardTitle className="text-2xl md:text-4xl tracking-wide">
+                  <CardTitle className="text-2xl md:text-3xl">
                     Model Scheduler
                   </CardTitle>
                 </CardHeader>
 
-                <CardContent>
-                  <img src="/ModelScheduler.png" className="flex rounded-lg" />
+                <CardContent className="">
+                  <img
+                    src="/ModelScheduler.png"
+                    className="flex rounded-lg mx-auto h-auto w-3/4"
+                  />
                   <p className="mt-4 indent-10 text-start">
-                    The Model Scheduler is a tool created by students in the
-                    Computer Science II and Computer Science III classes each
-                    year at Allen High School. This tool helps students at Allen
-                    High School to create their schedule for the next school
-                    year by providing students with the course availability and
-                    information, letting them build their own schedules based
-                    off of the given data. This was the first project where I
-                    learned how to work with frameworks, specifically React,
-                    along with working together as a team.
+                    A collaborative project that
+                    helped students at my high school build their schedule for
+                    the following school year based off data provided. I
+                    assisted in the designing and implementation of the home and
+                    scheduling page using React and TailwindCSS.
                   </p>
                 </CardContent>
 
-                <CardFooter>
+                <CardFooter className="flex flex-row pt-0 pb-2">
                   <a
-                    className="projectLink"
+                    className="projectLink font-bold"
                     target="_blank"
                     href="https://github.com/Allen-ISD-Computer-Science/REPO_ModelScheduler_2024"
                   >
-                    View Github Repository
+                    <i className="bi bi-github text-3xl p-2"></i>
+                    Github Repo
+                  </a>
+                </CardFooter>
+              </Card>
+
+              <Card className="card w-full pt-2">
+                <CardHeader>
+                  <CardTitle className="text-2xl md:text-3xl">
+                    Notebook
+                  </CardTitle>
+                </CardHeader>
+
+                <CardContent className="">
+                  <img
+                    src="/NebulaNotebook.png"
+                    className="flex rounded-lg mx-auto h-auto w-3/4"
+                  />
+                  <p className="mt-4 indent-10 text-start">
+                    An open-source project that lets students at the
+                    University of Texas at Dallas to share notes with each other
+                    for classes. As a contributor, I worked on implementing the
+                    front end UI designs using React and TailwindCSS, as well as
+                    implementing and testing the file uploading system using
+                    PostgreSQL
+                  </p>
+                </CardContent>
+
+                <CardFooter className="flex flex-row pt-0 pb-2">
+                  <a
+                    className="projectLink font-bold"
+                    target="_blank"
+                    href="https://github.com/UTDNebula/utd-notebook"
+                  >
+                    <i className="bi bi-github text-3xl p-2"></i>
+                    Github Repo
+                  </a>
+                </CardFooter>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Personal Projects */}
+      <div className="flex flex-col justify-center items-center text-white mt-[2.5rem] w-full">
+        <div
+          id="Personal Projects"
+          className="flex flex-col justify-start items-start w-full max-w-4xl"
+        >
+          <h2>Personal Projects</h2>
+          <hr className="my-4 w-full border-1 border-white rounded-full" />
+          <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
+            <div className="flex flex-col justify-center items-center">
+              <Card className="card w-full pt-2">
+                <CardHeader>
+                  <CardTitle className="text-2xl md:text-3xl">
+                    Vortex
+                  </CardTitle>
+                </CardHeader>
+
+                <CardContent className="">
+                  <img
+                    src="/GameImage.webp"
+                    className="flex rounded-lg mx-auto h-auto w-3/4"
+                  />
+                  <p className="mt-4 indent-10 text-start">
+                    An immersive storm chasing game on the online platform Roblox. Working with a multidisciplinary
+                    team, I created and scaled a backend system utilizing a NoSQL, key-value database, along with
+                    identifying and debugging critical issues to improve server performance.
+                  </p>
+                </CardContent>
+
+                <CardFooter className="flex flex-row pt-0 pb-2">
+                  <a
+                    className="projectLink font-bold"
+                    target="_blank"
+                    href="https://roblox.com/games/17497598593/"
+                  >
+                    <i className="bi bi-box-arrow-up-right text-xl p-2"></i>
+                    Game Link
                   </a>
                 </CardFooter>
               </Card>
