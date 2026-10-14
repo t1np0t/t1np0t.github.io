@@ -13,7 +13,7 @@ export default function DefaultNavbar() {
     return (
         <>
             <div className='fixed top-0 left-0 w-full flex justify-center items-center' style={{ zIndex: 10, backgroundColor: '#333333', height: '4rem' }}>
-                <div className='flex flex-grow justify-center items-center'>
+                <div className='flex grow justify-center items-center'>
                     <NavigationMenu>
                         <NavigationMenuList className='space-x-4'>
 
